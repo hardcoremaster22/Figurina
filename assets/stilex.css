@@ -1,6 +1,6 @@
 body {
     background-color: lightgray;
-    font-family: 'Oswald', sans-serif;
+    font-family: "Oswald", sans-serif
 }
 
 .contenitore {
@@ -9,20 +9,28 @@ body {
     height:440px;
     padding: 10px;
     position: relative;
+    display: block;
+    margin: 0 auto
     
 }
 
 .figurina {
-    background-image: url(./assets/paco\ giordano.jpg);
+    background-image: url(./paco\ giordano.jpg);
     background-size: cover;
     width: 316px;
     height: 358px;
     border: 2px solid black;
+    transition: background-image 1s ease-out;
+}
+
+.figurina:hover{
+    background-image: url(./paco\ giordano1.jpg);
+    
 }
 
 .nome {
     background-color:transparent;
-    width: 320px;
+    width: 316px;
     height: 22px;
     font-size: 14px;
     text-align: right;
@@ -30,14 +38,14 @@ body {
 
 .didascalia {
     background-color: #D2B06A; 
-    width: 315px;
+    width: 311px;
     height: 40px;
     font-size: 14px;
     position: relative;
     text-align: right;
     line-height: 20px;
-    padding-right: 5px;
     border: solid black 2px;
+    padding-right: 5px;
 }
 
 .logo {
